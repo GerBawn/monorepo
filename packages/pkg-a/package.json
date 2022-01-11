@@ -1,0 +1,16 @@
+{
+  "name": "pkg-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "eslint"
+  },
+  "lint-staged": {
+    "src/**/*.js": "pnpm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
