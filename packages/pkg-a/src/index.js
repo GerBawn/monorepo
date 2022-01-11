@@ -9,3 +9,6 @@ new Promise((resolve) => {
   .catch((err) => {
     console.log(err);
   });
+
+const { aaa } = require('./ma');
+aaa();
