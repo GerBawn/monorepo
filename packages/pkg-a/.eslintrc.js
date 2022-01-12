@@ -13,7 +13,7 @@ module.exports = {
     'plugin:node/recommended',
   ],
   plugins: [],
-  globals: {
-    // Promise: 'off',
-  },
+  // globals: {
+  //   // Promise: 'off',
+  // },
 };
